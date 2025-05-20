@@ -1,0 +1,143 @@
+@media (max-width: 1024px) {
+
+  body {
+    margin: 25px 18px 144px;
+ }
+
+  .header {
+    flex-direction: column;
+ }
+
+  .header__symbols {
+    width: 144px;
+    height: 29px;
+  }
+
+  .input-icon {
+    width: 16px;
+    height: 16px;
+    top: 60%;
+  }
+
+  .input-search {
+    width: 192px;
+    height: 37px;
+    border-radius: 10px;
+    padding: 10px 52px 10px 35px;
+    margin-top: 10px;
+  }  
+
+  .input-search::placeholder {
+    font-size: 11px ;
+  } 
+
+  .hours__geral {
+    margin-left: 29px; 
+    margin-top: 13px;
+  }
+
+  .hours__rain {
+    font-size: 16px;
+  }
+
+  .hours__city {
+    font-size: 40px;
+    white-space: nowrap;
+  }
+
+  .hours__temperature {
+    margin-bottom: 27px;
+    margin-top: 11px;
+    font-size: 68px;
+  }
+
+  .hours__sun {
+    width: 163px;
+    height: 128px;
+    margin-left: 0;
+    margin-bottom: 54px;
+}
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container__blue { 
+    width: 354px;
+    height: 178px;
+    border-radius: 27px;
+    margin-bottom: 24px;
+    overflow-x: scroll;
+    }
+
+  .blue {
+    margin: 24px 30px;
+  }
+
+  .blue__list {
+    margin-right: 47px;
+  }
+
+  .blue__hour {
+    font-size: 12px;
+  }
+
+  .blue__image {
+    height: 40px;
+    width: 47px;
+  }
+
+  .blue__temperature {
+    font-size: 20px;
+  }
+
+  .container__block {
+    width: 170px;
+    height: 127px;
+    border-radius: 31px;
+  }
+
+  .container__list {
+    grid-template-columns: repeat(2, 170px);
+    grid-gap: 15px;
+  }
+
+  .container__linear {
+    margin-bottom: 27px;
+  }
+
+  .container__name {
+    font-size: 14px;
+    margin-top: 29px;
+  }
+
+  .container__information {
+    font-size: 33px;
+  }
+
+.days {
+    margin-left: 0;
+    margin-top: 24px;
+    width: 354px;
+  }
+
+ .day {
+    font-size: 16px;
+  }
+
+  .day__image {
+    width: 62px;
+    height: 53px;
+  }
+
+  .days__max {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+
+  .days__min {
+    font-size: 16px;
+  }
+}
+
+

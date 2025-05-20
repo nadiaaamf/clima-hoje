@@ -1,0 +1,292 @@
+* { 
+  margin: 0;
+  padding: 0;
+   font-family: "Poppins", sans-serif;
+   box-sizing: border-box;
+}
+
+.app-container {
+  max-width: 1440px;
+}
+
+body {
+  background-color:  #E2EAF5;
+  margin: 40px 255px 276px;
+}
+
+.header {
+  display: flex;
+  align-items: center; 
+}
+
+.header__symbols {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 209px;
+  height: 42px;
+}
+
+.header__name {
+  margin-left: 11px; 
+}
+
+.input-wrapper {
+  position: relative;
+  display: inline-block;
+  margin-left: 31px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 13px; 
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+}
+
+.input-search {
+  border: none;
+  background-color: #FDFFFE;
+  border-radius: 15px;
+  width: 670px;
+  height: 55px;
+  padding-left: 49px;
+}
+
+.input-search:focus {
+  outline: 2px solid #3aa2ff;
+}
+
+.input-search::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #B1B8C0;
+}
+
+.hours {
+  display: flex;
+}
+
+.hours__geral {
+  display: flex;
+  margin-top: 69px;
+  margin-left: 82px; 
+}
+
+.hours__city {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 100%;
+  color: #2A394F;
+  margin-bottom: 0;
+}
+
+.hours__rain {
+  font-family: "Poppins", sans-serif;
+  color: #9AA0A8;
+  font-size: 20px;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hours__temperature {
+  font-family: "Poppins", sans-serif;
+  color: #2A394F;
+  font-size: 85px;
+  line-height: 100%;
+  margin-bottom: 45px;
+  margin-top: 13px;
+}
+
+.hours__sun {
+  width: 242px;
+  height: 191px;
+  margin-left: 276px;
+  margin-bottom: 78px;
+}
+
+.container {
+  display: flex;
+}
+
+.container__blue {
+  display: grid; 
+  gap: 70px;
+  position: relative;
+  background: linear-gradient(90.28deg, #007DFE 0.22%, #3AA2FF 99.76%);
+  width: 910px;
+  height:261px;
+  border-radius: 40px;
+  justify-items: stretch;
+  margin-bottom: 45px;
+  
+}
+
+.blue {
+  display: flex; 
+  justify-content: space-between;
+  list-style: none;
+  margin: 36px 72px 35px 71px;
+  padding-left: 0;
+  align-items: center;
+}
+
+.blue__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue__hour {
+  font-family: "Poppins", sans-serif;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  opacity: 75%;
+
+}
+
+.blue__image {
+  height: 60px;
+  width: 70px;
+}
+
+.blue__tempeture {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-top: 27px;
+}
+
+.container__block {
+  align-content: center;
+  justify-items: center;
+
+  height: 164px; 
+  background-color: #FFFFFF;
+  list-style: none;
+  border-radius: 40px;
+}
+
+.container__list {
+  display: grid;
+  grid-template-columns: repeat(4, 220px);
+  gap: 12px;
+  padding-left: 0px;
+}
+
+.container__linear {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 35px;
+}
+
+.container__name {
+  font-family: "Poppins", sans-serif;
+  color: #8F8F8F;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  margin-top: 38px;
+  margin-bottom: 15px;
+}
+
+.container__information {
+  font-family: "Poppins", sans-serif;
+  color: #2A394F;
+  font-size: 43px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 0; 
+  margin-left: 4px;
+}
+
+.container__block .container__linear > p > span {
+  font-size: 12px;
+}
+
+.days {
+ background-color: #FFFFFF;
+ height: 827px;
+ width: 397px;
+ border-radius: 40px;
+ margin-left: 103px;
+ margin-right: 255px;
+ flex: 1;
+}
+
+.days__week {
+  list-style: none;
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.days .days__list .days__week .day,
+.days .days__list .days__week .days__image,
+.days .days__list .days__week .days__max,
+.days .days__list .days__week .days__min {
+  flex: 1;
+}
+
+.day {
+  color: #8F8F8F;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+.days__list {
+  padding: 50px 55px 0; 
+}
+
+.days__image {
+  width: 70px;
+  height: 60px;
+}
+
+.days__max {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #2A394F;
+  margin-right: 11px; 
+}
+
+.days__min {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #8F8F8F; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
